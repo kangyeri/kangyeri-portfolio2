@@ -1,0 +1,95 @@
+main #sec1{
+    background-color: #739F48;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+
+
+main #sec2{
+    background-image: url(../img/sub1_main.png);
+    height: 300px;
+    margin-top: 80px;
+}
+
+main #sec2 h3{
+    color: white;
+    font-size: 2.5rem;
+  
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 110px;
+}
+
+main #sec3{
+    padding-top: 50px;
+}
+main #sec3 .title h5{
+    font-size: 1.1rem;
+    padding-right: 100px;
+    color: #353535;
+    
+}
+
+main #sec3 .title{
+    display: flex;
+    padding: 15px 50px 15px 0px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+main #sec3 .title #space{
+    padding-left: 18px;
+}
+main #sec3 .title #blank{
+    padding-right: 100px;
+}
+
+
+main #sec4{
+    background-image: url(../img/poster.jpg);
+    height: 1800px;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+#sec5{
+    margin-top: 50px;
+}
+#sec5 .list{
+    display: flex;
+    color: #626262;
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 20px;
+}
+
+#sec5 .list:nth-child(1){
+    border-top: 1px solid #e7e7e7;
+    
+}
+
+#sec5 .list img{
+   padding-right: 20px;
+}
+
+#sec5 .list p{
+    padding-right: 10px;
+}
+
+#sec5 #button h3{
+   
+    background-color: #739F48;
+    color: white;
+    font-weight: 200;
+    
+    display: inline-block;
+   padding: 10px 35px;
+   margin-top: 100px;
+   margin-left: 700px;
+   
+}
+

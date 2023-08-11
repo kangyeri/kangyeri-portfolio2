@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'SBAggroL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{font-size: 18px;}
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+ul,ol,li{list-style-type: none;}
+
+a{color: inherit; text-decoration: none;}
+
+#wrap{width: 100%;}
+
+.inner{width: 1240px; margin: 0 auto;}
+
+/**************** header ****************/
+header{
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    
+}
+
+header #logo{
+    float: left;
+    margin-top: 25px;
+}
+
+header #logo img{
+    width: 259px;
+    height: 82px;
+}
+
+header nav{
+    float: left;
+    padding-left: 80px;
+}
+
+header nav ul li{
+    float: left;
+    margin-right: 80px;
+    margin-top: 55px;
+    font-size: 1.2rem;
+}
+
+header .topmenu{
+    float: right;
+    margin-top:55px;
+}
+
+header .topmenu a{
+    margin-left: 15px;
+}
+
+header nav a:hover{
+    color: orange;
+}
+/**************** sec1 ****************/
+#sec1{
+    background-image: url(../img/main_back.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 670px;
+    min-width: 1240px;
+    
+}
+
+
+#sec1 h2{
+    font-family: 'SBAggroL';
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #fff;
+    padding-top: 150px;
+    
+}
+
+#sec1 h3{
+    font-family: 'SBAggroL';
+    font-size: 3rem;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    letter-spacing: 3px;
+   
+}
+
+#sec1 span{
+    color: #FFAFD2;
+}
+
+#sec1 a{
+    font-family: 'SBAggroM';
+    font-size: 1.5rem;
+    background-color: #D9D9D9;
+    border-radius: 40px;
+    padding: 18px 20px 15px 20px;
+    box-shadow:0px 10px 10px rgba(0,0,0,0.1);
+   
+}
+
+#sec1 a:hover{
+    color:#FF1C7F;
+}
+
+#sec1 #maintext{
+    width: 800px;
+    
+}
+
+/**************** sec2 ****************/
+#sec2 ul{
+    background-color: #fff;
+    border: 4px solid #B5BB95;
+    border-radius: 37px;
+    height: 180px;
+    
+    margin-top: -90px;
+    padding: 35px 35px 0 100px;
+    box-shadow:0px 30px 30px rgba(0,0,0,0.1);
+}
+
+#sec2 ul li:first-child{
+    background-image: url(../img/kakao_icon.png);
+    background-repeat: no-repeat;
+}
+   
+
+
+#sec2 ul li:nth-child(2){
+    background-image: url(../img/insta_icon.png);
+    background-repeat: no-repeat;
+}
+#sec2 ul li:last-child{
+    background-image: url(../img/shop_icon.png);
+    background-repeat: no-repeat;
+}
+
+#sec2 ul li{
+    float: left;
+    padding-left:100px;
+    
+    width: calc(100% / 3);
+    
+}
+#sec2 a::after{
+    content: url(../img/ic_arrow11.png);
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+}
+#sec2 h3{
+    font-size: 1.4rem;
+    font-family: 'SBAggroM';
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+#sec2 p{
+    color: #aaaaaa;
+    padding-bottom: 3px;
+}
+
+#sec2 a{
+    font-weight: bold;
+}
+/**************** sec3 ****************/
+
+#sec3{
+    padding: 150px 0px;
+    clear: both;
+}
+#sec3 ul{
+    height: 400px;
+}
+#sec3 h2::after{
+    content: url(../img/title_dot.png);
+    
+}
+#sec3 h2::before{
+    content: url(../img/title_dot.png);
+}
+
+#sec3 h2{
+ 
+    text-align: center;
+    font-family: 'SBAggroL';
+    
+    
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+#sec3 ul li{
+    float: left;
+    margin-right: 40px;
+   
+}
+
+#sec3 ul li p{
+    text-align: center;
+    font-family: 'SBAggroL';
+    
+}
+
+#sec3 ul li:last-child{
+    margin-right: 0;
+}
+
+#sec3 ul li a{
+    display: block;
+}
+
+/***** 추가 시작 *****/
+
+#sec3 ul li:hover img{
+    transform: scale(1.2,1.2);
+    transition: all ease 1s;
+}
+
+#sec3 ul li:hover p{
+    transform: translateY(-170px);
+    transition: 1s;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-shadow: -2px 0px white, 0px 2px white, 2px 0px white, 0px -2px white;
+}
+/***** 추가 끝 *****/
+
+
+/**************** sec4 ****************/
+
+#sec4{
+    clear: both;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+    height: 450px;
+    min-width: 1240px;
+    
+    
+}
+#sec4 ul{
+   padding-left: 560px;
+   padding-top: 40px;
+}
+#sec4 ul li{
+    float: left;
+    padding-right:30px;
+    
+}
+#sec4 a{
+    background-color: #FFAFD2;
+    border-radius: 21px;
+    padding:5px 40px;
+    font-size: 1.2rem;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+    font-weight: bold;
+    
+}
+#sec4 h3, h4{
+    text-align: center;
+    font-family: 'SBAggroL';
+}
+
+#sec4 p{
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+#sec4 h3{
+    font-size: 3rem;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+#sec4 h4{
+    font-size: 2.5rem;
+    padding-bottom: 100px;
+}
+
+/**************** sec5 ****************/
+#sec5{
+    padding: 150px 0;
+}
+
+#sec5 ul{
+    height: 400px;
+}
+#sec5 h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    font-family: 'SBAggroL';
+   
+}
+#sec5 h2:before{
+    content: url(../img/title_dot.png);
+}
+
+#sec5 h2::after{
+    content: url(../img/title_dot.png);
+}
+
+#sec5 ul li{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+#sec5 ul li a{
+    display:block;
+}
+#sec5 ul li:last-child{
+    margin-right: 0;
+}
+
+#sec5 h5{
+    text-align: center;
+    color: white;
+    margin-top: -60px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+/***** 추가시작 *****/
+
+#sec5 .textballoon img{
+    position: absolute;
+    opacity: 0;
+    left: 20%;
+    top: 270px;
+    
+    
+}
+
+
+#sec5 ul li:hover .textballoon img{
+    opacity: 1;
+    transition: 1s;
+    
+    
+}
+
+#sec5 ul li:hover img{
+    transform: scale(130%, 130%);
+    transition: 1s;
+   
+}
+
+
+
+#sec5 ul li:hover h5{
+    transform: translateY(-150px);
+    transition: 1s;
+    text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
+    
+    
+    
+    
+}
+
+#sec5 ul li:hover{
+    z-index: 99;
+}
+
+
+/***** 추가끝 *****/
+
+
+/**************** sec6 ****************/
+
+#sec6{
+    height: 100px;
+    margin-bottom: 150px;
+    
+}
+#sec6 ul li:first-child{
+    background-image: url(../img/guide1.jpg);
+    background-repeat: no-repeat;
+    float:left;
+    width: 620px;
+    height: 100px;
+    
+}
+
+#sec6 ul li:last-child{
+    background-image: url(../img/guide2.jpg);
+    background-repeat: no-repeat;
+    float: right;
+    width: 620px;
+    height: 100px;
+   
+}
+
+#sec6 a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'SBAggroL';
+    padding-left:20px;
+    position: relative;
+    top: 8px;
+    display: block;
+    height: 100px;
+    width: 100%;
+   
+}
+#sec6 a:after{
+    content: url(../img/guide_arrow.png);
+    position: relative;
+    left: 220px;
+    top: 20px;
+    
+}
+
+#sec6 #book:after{
+    content: url(../img/guide_arrow.png);
+    position: relative;
+    left: 240px;
+    top: 20px;
+    
+}
+
+#sec6 ul li{
+    position: relative;
+}
+
+
+/******* 추가시작 *******/
+
+#sec6 ul li a::before{
+    content: "";
+    background-color:#FFAFD2;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: -8px; left: 0;
+    position: absolute;
+    opacity: 0;
+
+}
+
+#sec6 ul li span{
+    position: absolute;
+    top: 30px; left: 270px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+#sec6 ul li:hover a::before{
+    opacity: 0.9;
+    transition: 0.5s;
+    
+}
+
+#sec6 ul li:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+#sec6 ul li:hover a::after{
+    opacity: 0;
+}
+
+/******* 추가끝 *******/
+
+/**************** footer ****************/
+
+footer{
+    
+    clear: both;
+    border-top: 1px solid #000;
+    height: 400px;
+}
+
+footer .icon{
+    height: 50px;
+    padding-left: 560px;
+    margin-top: 30px;
+}
+footer .icon a{
+    
+    padding-right:10px;
+}
+
+
+
+footer ul{
+    padding-left: 220px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+footer ul li{
+    float: left;
+    margin-right: 60px;
+}
+footer p{
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+footer ul a:hover{
+    color: #FF1C7F;
+}
+
+footer ul li a{
+    font-weight: 500;
+}
+
+/**************** support ****************/
+
+.support{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}

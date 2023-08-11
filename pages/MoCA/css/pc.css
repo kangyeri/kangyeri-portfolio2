@@ -1,0 +1,422 @@
+@media all and (min-width:1200px){
+    .inner{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    .mo{
+        display: none;
+    
+    }
+    
+    .pc{
+        display: block;
+    }
+    
+    
+    header{
+        margin-top: 20px;
+        height: 160px;
+    }
+
+    h1 img{
+        width: 370px;
+        
+    }
+
+    header .hWrap{
+        width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+      
+    }
+    h2{
+        font-size: 60px;
+    }
+
+    
+    header button{
+        display: none;
+    }
+    
+
+    nav{
+        position: unset;
+        background-color: unset;
+       display: block;
+        
+    }
+
+    .gnb_mo{
+        display: none;
+    }
+
+    .gnb_pc{
+        margin-top: 10px;
+        padding-left: 0;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .gnb_pc li{
+        font-size: 18px;
+    }
+
+    
+
+    .gnb_pc li a:last-child{
+        vertical-align: -10px;
+    }
+
+    .gnb_pc li a:hover{
+        color: #009f42;
+    }
+
+    
+    
+    
+   
+
+    /* sec1 */
+    #sec1{
+        margin-top: 100px;
+    }
+
+   
+ 
+   #sec1 .center{
+    text-align: center;
+  }
+
+  
+
+    #sec1 h4{
+    
+    margin: 0 auto;
+    }
+
+   
+
+
+    /* sec2 */
+    #sec2{
+        margin-top: 150px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        /* background-color: #bdb0a67e; */
+        position: relative;
+        height: 350px;
+       
+    }
+
+    #sec2 .inner{
+        display: flex;
+    }
+    #sec2 .autoplay{
+        display: none;
+    }
+
+    #sec2 .pc_notice{
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 500px;
+    }
+
+    #sec2 h3{
+        padding: 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+        width: 700px;
+    }
+
+    #sec2 #top p{
+        position: absolute;
+        top: 250px;
+        right: 300px;
+        font-size: 1.1rem;
+    }
+
+    /* sec3 */
+
+    #sec3{
+        margin-top: 100px;
+        height: 700px;
+        padding-top: 150px;
+        
+        
+        
+    }
+
+
+
+    #sec3 .inner h2{
+        font-size: 8rem;
+      
+    }
+    
+    #sec3 #pattern{
+        position: absolute;
+        width: 25%;
+        left: 350px;
+
+    }
+    
+    #sec3 .inner img{
+        display: block;
+        width: 50%;
+    }
+    
+ 
+
+    #sec3 h4{
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+        
+    }
+
+    #sec3 .but_box{
+        width: 500px;
+        display: flex;
+        margin: 0 auto;
+
+    }
+
+    
+
+    
+    #sec3 #box:hover{
+      color: #231f20;
+      background-color: white;
+      border: 1px solid #231f20;
+  
+    
+       
+    }
+
+    /* sec4 */
+    #sec4{
+        margin-top: 100px;
+    }
+
+    #sec4 h2::after{
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.205);
+        width:900px;
+        height: 1px;
+        right: 20%;
+        top: 80px;
+        content: "";
+        
+    }
+
+    
+  
+   
+
+
+    #sec4 .btn{
+        display: flex;
+        position: absolute;
+        top: 60px;
+        right: 250px;
+    }
+    
+    #sec4 .btn .prev{
+        padding-right: 50px;
+    }
+   /* sec5 */
+
+   
+   #sec5{
+    margin-top: 100px;
+    position: relative;
+   }
+
+    #sec5 h2{
+        display: inline-block;
+    }
+
+    
+    
+    #sec5 #pro{
+        width: 300px;
+        height: 300px;
+    }
+    
+    #sec5 .sec5_left{
+        float: left;
+        width: 50%;
+        /* background-color: gold; */
+        position: relative;
+    }
+    
+    #sec5 .sec5_right{
+      width: 50%;
+      /* background-color: pink; */
+      float: left;
+      position: relative;
+    }
+    
+    #sec5 .edu{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+      
+    }
+    
+    #sec5 .edu2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      
+    }
+    #sec5 .plus{
+        padding-top: 40px;
+        padding-right: 25px;
+    }
+
+
+    
+    
+    .sec5_right h2::after, .sec5_left h2::after{
+       
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.205);
+        width: 300px;
+        height: 1px;
+        right: 130px;
+        top: 85px;
+        content: "";
+        
+    }
+    
+   
+    
+    
+    #sec5  .plus{
+        position: absolute;
+        right: 0;
+        top: 10px;
+        
+    }
+    
+    
+    
+    /* sec6 */
+    
+    #sec6 #title{
+        width: 150px;
+    }
+
+    #sec6 {
+        clear: both;
+        padding-top: 150px;
+    }
+
+    #sec6 .click_mob{display: none;}
+    
+    #sec6 .click_pc{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+
+    #sec6 .click_pc .item{
+        position: relative;
+        margin: 15px;
+    }
+
+    #sec6 .click_pc .over{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+        opacity: 0;
+       
+        
+
+    }
+
+    #sec6 .click_pc .item:hover .over{
+        opacity: 1;
+        
+    }
+    
+    
+    #sec6 .click_pc h6{
+        padding-bottom: 20px;
+        font-size: 0.8rem;
+    }
+    
+    #sec6 .click_pc p{
+        font-size: 1.5rem;
+    }
+
+    #sec6 .click{
+        height: 100%;
+    }
+
+    #sec6 .icon{
+        padding-top: 160px;
+    }
+    #sec6 .text{
+        
+        color: rgb(211, 211, 211);
+        font-size: 6rem;
+        overflow: hidden;
+        font-weight: 800;
+    }
+    
+
+   
+
+    
+/* footer */
+    footer{
+        padding-top: 80px;
+    }
+    footer #footlogo{
+        width: 140px;
+        float: left;
+        padding-right: 30px;
+        padding-top: 0px;
+    }
+
+    
+    footer .foot_left{
+        float: left;
+    }
+
+    footer .foot_right{
+        float: left;
+        padding-left: 150px;
+    }
+
+    footer h4{
+        margin-top: 0px;
+    }
+  
+    .foot_right #icon img{
+        margin-top: 30px;
+        padding-right: 10px;
+    }
+    footer p{
+        font-size: 0.8rem;
+        
+    }
+
+
+    
+}
